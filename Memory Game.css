@@ -1,0 +1,7 @@
+#memorygame div{
+    border: 2px solid rgb(10, 10, 10);
+    width:20%;
+    height:200px;
+    margin: 15px;
+    display: inline-block;
+}
