@@ -1,0 +1,123 @@
+h1 {
+    color: rgb(61, 177, 71);
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .main {
+    width: 50%;
+    margin: 0 auto;
+    background-color:  rgb(228, 207, 207);
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .meme {
+    width: 99%;
+    /* margin: 2 auto; */
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position:relative;
+  }
+  
+  .toptext{
+  position:absolute;
+  top:10px;
+  left:30px;
+  color:whitesmoke;
+  z-index:3
+  }
+  
+  .bottomtext{
+  position:absolute;
+  bottom:30px;
+  left:30px;
+  color:whitesmoke;
+  z-index:3
+  }
+  
+  .meme img{
+  max-width:100%;
+  z-index:2
+  }
+  
+  main:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  meme:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    background-color: #f0feff;
+  }
+  
+  .button {
+    float: right;
+  }
+  
+  
+  /* divider styles */
+  
+  hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .lowerborder {
+    border-bottom: 1px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  
+  /* form styles */
+  
+  form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  form input {
+    margin: 2px;
+  }
+  
+  form label {
+    margin: 2px;
+  }
+  
+  
+  /* Container holding the image and the text */
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Bottom left text */
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  
+  /* Top left text */
+  
+  .location {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
